@@ -1,0 +1,101 @@
+.card {
+    padding: 0 10px;
+    width: 280px;
+    height: 163px;
+    left: 192px;
+    top: 94px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    margin: 100px;
+}
+
+.card-title {
+
+    width: auto;
+    height: 13px;
+    left: 206px;
+    top: 108px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    margin: 0;
+    color: #000000;
+}
+
+.card-subtitle {
+
+    display: inline;
+    width: auto;
+    height: 11px;
+    left: 206px;
+    top: 127px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0;
+    /* identical to box height */
+
+    color: #8C8C8C;
+}
+
+.card-info {
+
+    margin: 0;
+    width: auto;
+    height: 11px;
+    left: 206px;
+    top: 139px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+
+    /* identical to box height */
+
+    color: #000000;
+}
+
+.card-check {
+    display: inline;
+    width: 8px;
+    height: 8px;
+    left: 255px;
+    top: 141px;
+
+
+}
+
+.card-edit a {
+    text-decoration: none;
+    width: 20px;
+    height: 11px;
+    left: 435px;
+    top: 110px;
+    border-radius: 1px;
+    ;
+    padding: 4px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    float: right;
+
+
+    /* identical to box height */
+
+    color: #8461F8;
+}
+
+.card-edit a:hover {
+    background-color: #e7dfff;
+}

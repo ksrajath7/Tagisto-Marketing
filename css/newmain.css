@@ -1,0 +1,179 @@
+/* font links  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+/* container body html  */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.container {
+    width: 1244px;
+    height: 100vh;
+    margin: 0 auto;
+    background: #F1F2F4;
+}
+
+/* navigation css */
+
+.header {
+
+    width: 1244px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+    background: #8461F8;
+}
+
+.navigation {
+    height: inherit;
+    /* padding:7px 0; */
+    left: 60px;
+    top: 8px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+
+    /* identical to box height */
+    width: 60%;
+    float: left;
+    color: #FFFFFF;
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+    height: inherit;
+    margin-left: 30px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin: auto;
+    height: inherit;
+    padding: 0 10px;
+}
+
+.navigation ul li a {
+    color: white;
+    margin-top: 6px;
+    text-decoration: none;
+    height: inherit;
+    display: inline-block;
+}
+
+.active {
+    background: #6C45ED;
+}
+
+.profile {
+
+    width: 93px;
+    height: inherit;
+    left: 1130px;
+    top: 0px;
+    float: right;
+    margin-right: 30px;
+}
+
+.pro {
+    float: right;
+    width: 40%;
+    height: 28px;
+    left: 1130px;
+    top: 0px;
+
+}
+
+.avatar {
+    height: inherit;
+    display: inline-block;
+    margin: auto;
+
+}
+
+.pro-det {
+    margin-top: 4px;
+    width: auto;
+    height: 18px;
+    left: 1140.33px;
+    padding: 0 10px;
+
+}
+
+.pro-data {
+    margin: auto;
+    display: inline-block;
+    ;
+}
+
+.pname {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
+
+.pemail {
+    margin: 0;
+
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+
+    color: #FFFFFF;
+}
+
+.profile:hover {
+    background: #6C45ED;
+}
+
+.profile:hover .dropdown-content {
+    display: block;
+
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    z-index: 1;
+    width: 93px;
+    height: 45px;
+    left: 1130px;
+    top: 28px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lin p {
+    margin: 0;
+    padding: 0 10px;
+
+}
+
+
+.lin a {
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 9px;
+    line-height: 11px;
+    margin: 0;
+}

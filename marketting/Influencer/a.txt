@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tagisto : Influencer</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>Tagisto</h1>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a class="active" href="#">Influencers</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div class="btn">
+                    <p>Login</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero">
+        <img src="./images/hero.jpg" alt="">
+        <div class="hero-text">
+            <h1>An extraordinary community. <br> An industry-leading partner.</h1>
+        <p>Tagisto influencers have exclusive access to an innovative ecosystem of monetization tools,<br>
+            a global network of 5,000 retail partners, and tailored growth services—all designed to power the <br> 
+            monetization of your content.</p>
+            <div class="btn">
+                <p>Apply Now</p>
+            </div>
+            <div class="btn">
+                <p>Know more</p>
+            </div>
+        </div>
+    </div>
+    <div class="focus-section">
+        <div class="focus-text">
+            <h2>Why Tagisto is so valuable <br>
+                to infuencers</h2>
+                <p>Tagisto was founded by an influencer, for influencers. We understand the unique needs of <br>
+                    premium content creators across all lifestyle categories. Our teams support you by pairing <br>
+                    hands-on strategic guidance with the industry’s most advanced digital tools to maximize your <br>
+                    content monetization potential and build lasting brand relationships.</p>
+               
+        </div>
+    </div>
+    <div class="details">
+        <div class="detail-content">
+            <div class="detail-text">
+                <h2>Powerfull relationships <br>
+                    with premium brands</h2>
+                    <p>Acceptance to the rewardStyle community serves as a powerful industry <br>
+                        endorsement. Your immediate relationship with 5,000 of the most coveted retailers <br>
+                        and brands offers streamlined monetization and profitable production on the <br>
+                        platform with the largest aggregate campaign spend by brands</p>
+            </div>
+            <div class="detail-image">
+                <img src="./images/side1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="detail-content">
+            <div class="detail-image">
+                <img src="./images/side2.jpg" alt="">
+            </div>
+            <div class="detail-text">
+                <h2>Publish once, <br>
+                    Share everywhere</h2>
+                    <p>Our ecosystem of mobile and desktop tools enables you to create, distribute, and <br>
+                        track content across channels, delivering a streamlined monetization solution. With <br>
+                        rewardStyle’s LIKEtoKNOW.it technology, influencers generate mobile-first content <br>
+                        that’s immediately shoppable, even within closed platforms like Instagram and <br>
+                        Snapchat, providing the highest earning opportunity in the industry.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="detail-content">
+            <div class="detail-text">
+                <h2>Data-driven stratergy to <br>
+                    maximize earnings</h2>
+                    <p>We use proprietary retail, consumer, and influencer performance data to formulate <br>
+                        and provide growth consulting, and the results speak for themselves: 83% more <br>
+                        rewardStyle influencers earned $100,000+ in 2017 than in previous years.</p>
+            </div>
+            <div class="detail-image">
+                <img src="./images/side3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="details">
+        <div class="detail-content">
+            <div class="detail-image">
+                <img src="./images/side4.jpg" alt="">
+            </div>
+            <div class="detail-text">
+                <h2>Proven audience <br>
+                    growth tools</h2>
+                    <p>Leverage the power and reach of the collective rewardStyle influencer community to <br>
+                        grow an audience of highly engaged shoppers. Built by influencers, for influencers, <br>
+                        LIKEtoKNOW.it is a consumer media platform with a focused mission: grow your <br>
+                        audience, reach, and economic opportunity.</p>
+            </div>
+            
+        </div>
+    </div>    
+
+    <div class="carousel">
+        <div class="main-text">
+            <h1>
+                Access across all categories
+            </h1>
+            <p>
+                We’re dedicated to serving our network of influencers and brands across all major lifestyle categories. <br>
+                No matter your focus, there’s a community for you at Tagisto.
+            </p>
+        </div>
+        <div class="carousel-section">
+            <div class="car">
+                <p>TECHNOLOGY</p>
+                <img src="./images/car1.jpg" alt="">
+            </div>
+            <div class="car">
+                <p>TRAVEL</p>
+                <img src="./images/car2.jpg" alt="">
+            </div>
+            <div class="car">
+                <p>BEAUTY</p>
+                <img src="./images/car3.jpg" alt="">
+            </div>
+            <div class="car">
+                <p>FASHION</p>
+                <img src="./images/car4.jpg" alt="">
+            </div>
+            <div class="car">
+                <p>INTERNATIONAL</p>
+                <img src="./images/car5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="brands">
+        <img src="./images/brands.jpg" alt="">
+    </div>
+
+    <div class="details">
+        <div class="detail-content">
+            <div class="detail-text">
+                <h2>Join the Tagisto <br>
+                    community</h2>
+                    <p>Our community is unrivaled. Being a part of rewardStyle means doing business with <br>
+                        global brands, working alongside industry-leading influencers, and accessing the <br>
+                        most robust educational and consulting services for your business—all powered by <br>
+                        our pioneering technology.</p>
+            </div>
+            <div class="detail-image">
+                <img src="./images/side5.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="feedbacks">
+        <div class="main-text">
+           
+            <p>
+                Being a part of the Tagisto network has truly made my dream job a reality. <br>
+                Words can never ecpress how thankful I am for this platform Tagisto has created and <br>
+                allowed me a part of!
+            </p>
+
+            <h3>-LAUREN KAY</h3>
+        </div>
+        <div class="carousel-section">
+            <div class="pills">
+                
+            </div>
+            <div class="pills active">
+                
+            </div>
+            <div class="pills">
+                
+            </div>
+            <div class="pills">
+                
+            </div>
+            <div class="pills">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="taginf">
+        <div class="taginf-text">
+            <h1>
+                Becoming a Tagisto Influencer.
+            </h1>
+            <p>
+                We invest in you. rewardStyle is more than just a connection point—we bring you the data, strategies, and technology <br>
+                you need to grow your business and personal brand..
+            </p>
+        </div>
+        <div class="taginf-sub">
+                <div class="taginf-sub-image">
+                    <img src="./images/com.jpg" alt="">
+                </div>
+                <div class="taginf-sub-text">
+                    <div class="taginf-t">
+                        <h1>
+                            What is Tagisto <br>
+                            Influencer?
+                        </h1>
+                        <p>
+                            Our community is distinct and diverse, inspiring a highly-engaged audience with <br>
+                            outstanding, shoppable content. rewardStyle influencers are defined by their quality <br>
+                            of production, consistency of publishing, shoppability of content, and strength of <br>
+                            audience engagement.
+                        </p>
+                    </div>
+                    <div class="taginf-t">
+                        <h1>
+                            How to become a <br>
+                            Tagisto Influencer
+                        </h1>
+                        <p>
+                            We want to help you grow. First, let us get to know you—your history, brand mission, <br>
+                            audience, and business goals. Next, a rewardStyle team member will review your <br>
+                            application and reach out with next steps.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="apply">
+        <div class="apply-image">
+            <img src="./images/apply.jpg" alt="">
+        </div>
+        <div class="apply-text">
+            <h1>Ready to apply ?</h1>
+            <div class="btn">
+                <p>Get Started</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-main">
+            <div class="footer-title">
+                <h1>Tagisto</h1>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">Company</a></li>
+                    <li><a href="#">Influencer</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    -
+                    <li><a href="#">Instagram</a></li>
+                    -
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copright">
+            <p>COPYRIGHT &copy; 2020  TAGISTO.COM | Privacy Policy | Cookie Policy | Do Not Sell</p>
+        </div>
+    </div>
+
+</body>
+</html>

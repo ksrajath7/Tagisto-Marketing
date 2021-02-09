@@ -1,0 +1,157 @@
+body {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.popup {
+
+    margin: 100px;
+    width: 493px;
+    height: 333px;
+    left: 376px;
+    top: 84px;
+
+    background: #fff;
+}
+
+.popup-header {
+    background-color: lightblue;
+    overflow: hidden;
+    padding: 14px 20px;
+    background: #ffff;
+    border-bottom: 1px solid #E7E7E7;
+    margin: auto;
+    text-align: center;
+    display: block;
+
+}
+
+.popup p {
+    display: inline-block;
+    margin: auto;
+    margin-top: 2px;
+}
+
+.popup-title {
+    float: left;
+    left: 397px;
+    top: 102px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+
+    margin: auto;
+}
+
+.popup-close {
+    float: right;
+    text-align: center;
+
+    margin: auto;
+
+}
+
+.popup-body {
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+
+
+    /* identical to box height */
+    vertical-align: top ;
+    color: #3B3B3B;
+}
+
+input {
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+     width: 285px;
+    height: 28px;
+    padding: 5px;
+   margin-left: 70px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+textarea {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 11px;
+     width: 285px;
+    height: 137px;
+    padding: 5px;
+    margin-left: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 3px;
+    resize: none;
+
+}
+
+.popup-actions{
+    
+    text-align: right;
+    margin-top: 30px;
+}
+.cancel{
+display: inline-block;
+width: 102px;
+height: 28px;
+left: 637px;
+top: 373px;
+background: #FFFFFF;
+border: 1px solid #8461F8;
+box-sizing: border-box;
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 11px;
+
+/* identical to box height */
+text-align: center;
+padding: 5px;
+color: #8461F8;
+
+}
+
+.save{
+    display: inline-block;
+    width: 102px;
+    height: 28px;
+    left: 637px;
+    top: 373px;
+    background: #8461F8;
+    border: 1px solid #8461F8;
+    color: white;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+    margin-left: 8px;
+    /* identical to box height */
+    text-align: center;
+    padding: 5px;
+    
+    
+    }
+    
+    

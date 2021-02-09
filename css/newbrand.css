@@ -1,0 +1,111 @@
+.newbrand {
+    margin: 100px;
+
+    width: 1208px;
+    height: 260px;
+    left: 18px;
+    top: 95px;
+
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+}
+
+.newbrand-top{
+
+    margin-top: 20px;
+}
+
+.newbrand-top form {
+    text-align: center;
+    padding:2px;
+}
+
+.newbrand-top h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.newbrand-top p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #8C8C8C;
+}
+
+.newbrand-top form input {
+    display: inline-block;
+    width: 144px;
+    height: 28px;
+    left: 525px;
+    top: 187px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 5px;
+    color: #8C8C8C;
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    box-sizing: border-box;
+    border-radius: 2px 0px 0px 2px;
+    margin: 0;
+}
+
+.newbrand-top form .apply {
+    display: inline-block;
+    width: 49px;
+    height: 27px;
+    left: 724px;
+    top: 187px;
+    text-align: center;
+    border: 1px solid #E7E7E7;
+    border-radius: 0px 2px 2px 0px;
+    background: #8461F8;
+  
+    
+}
+
+.newbrand-top form .apply p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    /* identical to box height */
+    text-align: center;
+    margin-top: 5px;
+    color: #FFFFFF;
+}
+
+
+.newbrand-bottom{
+    padding-left: 350px;
+    
+}
+.newbrand-bottom h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+    color: #000000;
+}
+
+.newbrand-bottom p {
+    margin: 0;
+    display: inline-block;
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color:#8461F8;
+}

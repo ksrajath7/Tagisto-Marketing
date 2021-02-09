@@ -1,0 +1,54 @@
+/* title css  */
+
+
+.dashbd {
+
+    width: 1244px;
+    height: 56px;
+    left: 0px;
+    top: 28px;
+    background: #F7F7F7;
+}
+
+
+.dash-content {
+
+    display: inline-block;
+    margin-top: 18px;
+    margin-left: 18px
+}
+
+.dash-breads {
+    width: 24px;
+    height: 11px;
+    left: 18px;
+    top: 39px;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+
+    /* identical to box height */
+
+    color: #8461F8;
+}
+
+.dash-title {
+
+    width: 46px;
+    height: 19px;
+    left: 18px;
+    top: 54px;
+    margin: 0;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+
+
+}
