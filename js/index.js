@@ -57,3 +57,18 @@ window.onscroll = function () {
         menuIconLine3.classList.remove("menuIconLine_color");
     }
 };
+
+
+function apply(){
+    window.location.assign("/apply.html")
+}
+
+
+function gotoTagsta(){
+    window.open("https://www.google.com/")
+}
+
+
+function gotoStore(){
+    window.open("https://storetagisto.web.app/Register")
+}

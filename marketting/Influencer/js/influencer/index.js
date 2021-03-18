@@ -57,3 +57,10 @@ window.onscroll = function () {
         menuIconLine3.classList.remove("menuIconLine_color");
     }
 };
+
+
+
+
+function apply(){
+    window.location.assign("/apply.html")
+}
