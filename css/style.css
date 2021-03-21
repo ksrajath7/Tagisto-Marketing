@@ -453,6 +453,7 @@ body{
     height: 100px;
 }
 .static-logo{
+    display: none;
     height: 60px;
 }
 
