@@ -25,6 +25,7 @@ window.onscroll = function () {
         link1.classList.add("links-a_color");
         link1.classList.remove("links-a");
         link2.classList.add("links-a_color");
+        link2.classList.add("links-a_color-selected");
         link2.classList.remove("links-a");
         link3.classList.add("links-a_color");
         link3.classList.remove("links-a");

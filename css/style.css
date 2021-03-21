@@ -129,6 +129,11 @@ body{
     font-size: 20px;
 }
 
+.links-a_color-selected{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 .leftArrow{
     cursor: pointer;
     font-size: 24px;
@@ -198,17 +203,33 @@ body{
 .hero{
     font-family: 'Unna', serif;
     height: 100vh;
-    background: url(../img/bg.png);
+    background: url(../img/bg-4.png);
     background-attachment: fixed;
-    /* background-blend-mode: multiply; */
-    /* background-repeat: no-repeat; */
     background-size: cover;
-    /* background-color: #6441ff; */
     color: #0E283F;
-    /* position:relative; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.bg-2,
+.bg-3{
+    background-attachment: fixed;
+    background-size: cover;
+    color: #0E283F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Unna', serif;
+    height: 100vh;
+}
+
+.bg-2{
+    background: url(../img/bg-2.png);
+}
+
+.bg-3{
+    background: url(../img/bg-3.png);
 }
 
 .heroDiv{

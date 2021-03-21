@@ -23,6 +23,7 @@ window.onscroll = function () {
         myNav.classList.add("header_color");
         myNav.classList.remove("header");
         link1.classList.add("links-a_color");
+        link1.classList.add("links-a_color-selected");
         link1.classList.remove("links-a");
         link2.classList.add("links-a_color");
         link2.classList.remove("links-a");

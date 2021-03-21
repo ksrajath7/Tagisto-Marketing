@@ -27,6 +27,7 @@ window.onscroll = function () {
         link2.classList.add("links-a_color");
         link2.classList.remove("links-a");
         link3.classList.add("links-a_color");
+        link3.classList.add("links-a_color-selected");
         link3.classList.remove("links-a");
         // loginBtn.classList.add("loginBtn_color");
         // loginBtn.classList.remove("loginBtn");
