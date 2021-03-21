@@ -346,6 +346,12 @@ body{
     margin-bottom: 20px;
 }
 
+.features-col-ul{
+}
+.features-col-li{
+    font-family: 'Nunito', sans-serif;
+}
+
 .detail-content{
     display: grid;
     padding: 40px 20px;
@@ -364,6 +370,9 @@ body{
     font-weight: 900;
     font-size: 24px;
     margin-bottom: 10px;
+    /* background-color: rgb(255, 207, 198);
+    background-blend-mode: multiply; */
+    display: inline-block;
 }
 
 .detail-text p{
