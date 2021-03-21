@@ -203,7 +203,7 @@ body{
 .hero{
     font-family: 'Unna', serif;
     height: 100vh;
-    background: url(../img/bg-4.png);
+    background: url(../img/bg-1.png);
     background-attachment: fixed;
     background-size: cover;
     color: #0E283F;
@@ -211,7 +211,7 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
+.bg-4,
 .bg-2,
 .bg-3{
     background-attachment: fixed;
@@ -222,6 +222,10 @@ body{
     justify-content: center;
     font-family: 'Unna', serif;
     height: 100vh;
+}
+
+.bg-4{
+    background: url(../img/bg-4.png);
 }
 
 .bg-2{

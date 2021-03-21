@@ -6,14 +6,9 @@
 .apply{
     font-family: 'Unna', serif;
     height: 100vh;
-    /* background: url(../../images/back6.jpg); */
     background-attachment: fixed;
-    /* background-blend-mode: multiply; */
-    background-repeat: no-repeat;
     background-size: cover;
-    background-color: #252525;
-    color: white;
-    /* position:relative; */
+    color: #0E283F;
     display: flex;
     flex-direction: column;
     justify-content: center;

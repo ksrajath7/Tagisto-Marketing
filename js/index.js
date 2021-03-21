@@ -63,13 +63,3 @@ window.onscroll = function () {
 function apply(){
     window.location.assign("./marketting/Apply/")
 }
-
-
-function gotoTagsta(){
-    window.open("https://www.google.com/")
-}
-
-
-function gotoStore(){
-    window.open("https://storetagisto.web.app/Register")
-}
