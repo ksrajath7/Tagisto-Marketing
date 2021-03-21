@@ -69,12 +69,12 @@ body{
   }
   
   .menuIconLine{
-      height: 1px;
-      background-color: white;
+      height: 2px;
+      background-color: #0E283F;
   }
 
   .menuIconLine_color{
-      height: 1px;
+      height: 2px;
       background-color: #0E283F;
   }
 
@@ -113,6 +113,11 @@ body{
     transition: color 200ms linear;
     font-weight: 600;
     font-size: 20px;
+}
+
+.links-a-selected{
+    text-decoration: underline;
+    text-underline-position: under;
 }
 
 .links-a_color{
@@ -212,7 +217,7 @@ body{
 }
 
 .heroDiv h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900;
 }
 
@@ -357,8 +362,8 @@ body{
     padding: 40px 20px;
     padding-top: 0px;
     align-items: center;
-    column-gap: 60px;
-    row-gap: 30px;
+    column-gap: 30px;
+    row-gap: 10px;
 }
 
 .detail-text{
@@ -416,11 +421,24 @@ body{
     margin-top: 20px;
 }
 
+.floating-logo{
+    display: none;
+    position: absolute;
+    top: 20px; left:20px;
+    height: 100px;
+}
+.static-logo{
+    height: 60px;
+}
+
+
 @media(min-width:500px){
     .who{padding: 40px 20px;grid-template-columns: repeat(2, 1fr); }
 }
 
 @media(min-width:800px){
+    .floating-logo{display: block;}
+    .static-logo{display: none;}
     .menuIcon{display: none;}
     #linksWebView{display: block;}
     #linksMobileView{display: none;}
@@ -428,6 +446,7 @@ body{
     #mobileView{display: none;}
     .youtube-video{width: 600px;}
     .heroDiv{grid-template-columns: repeat(2, 1fr); padding: 0px 90px;}
+    .heroDiv h1{font-size: 50px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .features-brands{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
@@ -440,7 +459,7 @@ body{
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 80px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 80px;}
     .features-brands{grid-template-columns: repeat(3, 1fr); padding: 40px 20px;}
-    .who{padding: 40px 180px;grid-template-columns: repeat(3, 1fr); }
+    .who{padding: 40px 80px;grid-template-columns: repeat(3, 1fr); }
     .focus-content{padding: 100px 240px;}
     .become-content{ padding: 100px 240px;}
 }
@@ -450,6 +469,7 @@ body{
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
     .features-brands{grid-template-columns: repeat(4, 1fr); padding: 40px 20px;}
+    .who{padding: 40px 180px;grid-template-columns: repeat(3, 1fr); }
     .focus-content{ padding: 100px 360px;}
     .become-content{ padding: 100px 360px;}
 }

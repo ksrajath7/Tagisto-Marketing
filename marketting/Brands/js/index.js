@@ -60,5 +60,5 @@ window.onscroll = function () {
 
 
 function apply(){
-    window.location.assign("/apply.html")
+    window.location.assign("./../Apply")
 }
