@@ -28,8 +28,8 @@ window.onscroll = function () {
         link2.classList.remove("links-a");
         link3.classList.add("links-a_color");
         link3.classList.remove("links-a");
-        loginBtn.classList.add("loginBtn_color");
-        loginBtn.classList.remove("loginBtn");
+        // loginBtn.classList.add("loginBtn_color");
+        // loginBtn.classList.remove("loginBtn");
         menuIconLine1.classList.add("menuIconLine_color");
         menuIconLine1.classList.remove("menuIconLine");
         menuIconLine2.classList.add("menuIconLine_color");
@@ -47,8 +47,8 @@ window.onscroll = function () {
         link2.classList.remove("links-a_color");
         link3.classList.add("links-a");
         link3.classList.remove("links-a_color");
-        loginBtn.classList.add("loginBtn");
-        loginBtn.classList.remove("loginBtn_color");
+        // loginBtn.classList.add("loginBtn");
+        // loginBtn.classList.remove("loginBtn_color");
         menuIconLine1.classList.add("menuIconLine");
         menuIconLine1.classList.remove("menuIconLine_color");
         menuIconLine2.classList.add("menuIconLine");

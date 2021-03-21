@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #f3f0ff;
+    /* background-color: #f3f0ff; */
 
 }
 
@@ -23,25 +23,24 @@ body{
     font-family: 'Unna', serif;
     font-weight: 500;
     background-color: transparent;
-    color:white;
+    color:#0E283F;
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 10px 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
   /* -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; */
-          justify-content: space-between;
+          /* justify-content: space-between; */
+          align-items: center;
     transition: background-color 200ms linear;
 }
 
 .header_color {
     font-family: 'Unna', serif;
     font-weight: 500;
-    color:white;
     display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,7 +53,7 @@ body{
           justify-content: center; */
           justify-content: space-between;
     background-color: #fff !important;
-    color: #421ee2;
+    color: #0E283F;
     transition: background-color 200ms linear;
     box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.05);
   }
@@ -76,11 +75,15 @@ body{
 
   .menuIconLine_color{
       height: 1px;
-      background-color: #421ee2;
+      background-color: #0E283F;
   }
 
 .tagistoHeaderH1{
     font-size: 22px;
+}
+
+.spacing{
+    flex: 1;
 }
 
 #linksWebView{
@@ -106,15 +109,19 @@ body{
 .links-a{
     margin-left: 30px;
     text-decoration: none;
-    color: white;
+    color: #0E283F;
     transition: color 200ms linear;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .links-a_color{
     margin-left: 30px;
     text-decoration: none;
-    color: #421ee2;
+    color: #0E283F;
     transition: color 200ms linear;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .leftArrow{
@@ -135,57 +142,64 @@ body{
 
 .loginBtn{
     display: inline-block;
-    padding: 10px 20px;
-    border:2px solid white;
+    padding: 10px 30px;
+    font-weight: 600;
     cursor: pointer;
-    transition: .3s background-color;
+    transition: .3s background;
+    color: white;
+    background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    margin-left: 40px;
 }
 
 .loginBtn:hover{
-    transition: .3s background-color;
-    background-color: white;
-    color: #6441ff;
+    transition: .3s background;
+    background: linear-gradient(180deg, #6724FD 0%, #6724FD 100%);
 }
-
+/* 
 .loginBtn_color{
     display: inline-block;
     padding: 10px 20px;
-    border:2px solid #6441ff;
+    border:2px solid #0E283F;
     cursor: pointer;
     transition: .3s background-color;
-}
+} */
 
-.loginBtn_color:hover{
+/* .loginBtn_color:hover{
     transition: .3s background-color;
-    background-color: #6441ff;
+    background-color: #0E283F;
     color: #fff;
-}
+} */
 
 .btn{
     display: inline-block;
-    padding: 10px 20px;
-    border:2px solid white;
+    font-weight: 600;
+    color: #fff;
     cursor: pointer;
     margin-top: 20px;
-    transition: .3s background-color;
+    transition: .3s background;
+    background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    padding: 10px 30px;
 }
 
 .btn:hover{
-    transition: .3s background-color;
-    background-color: white;
-    color: #6441ff;
+    transition: .3s background;
+    background: linear-gradient(180deg, #6724FD 0%, #6724FD 100%);
 }
 
 .hero{
     font-family: 'Unna', serif;
     height: 100vh;
-    /* background: url(../../images/back6.jpg); */
+    background: url(../img/bg.png);
     background-attachment: fixed;
     /* background-blend-mode: multiply; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-size: cover;
-    background-color: #6441ff;
-    color: white;
+    /* background-color: #6441ff; */
+    color: #0E283F;
     /* position:relative; */
     display: flex;
     flex-direction: column;
@@ -199,7 +213,7 @@ body{
 
 .heroDiv h1{
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 .heroDiv p{
@@ -296,6 +310,42 @@ body{
 #mobileView{display: block;}
 
 
+.features-brands{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.features{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.features-col{
+    background: linear-gradient(180deg, #f7f5ff 0%, #f7f5ff 100%);
+    transition: 0.3s background;
+    padding: 40px;
+    border-radius: 20px;
+}
+/* .features-col:hover{
+    transition: 0.3s background;
+    background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    color: white;
+} */
+
+.features-svg{
+    height: 50px;
+    margin-bottom: 20px;
+}
+
 .detail-content{
     display: grid;
     padding: 40px 20px;
@@ -311,9 +361,9 @@ body{
 
 .detail-text h2{
     font-family: 'Unna', serif;
-    font-weight: 500;
-    font-size: 38px;
-    margin-bottom: 20px;
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .detail-text p{
@@ -370,6 +420,8 @@ body{
     .youtube-video{width: 600px;}
     .heroDiv{grid-template-columns: repeat(2, 1fr); padding: 0px 90px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
+    .features{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
+    .features-brands{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .focus-content{grid-template-columns: repeat(2, 1fr); padding: 100px 90px;}
     .become-content{grid-template-columns: repeat(2, 1fr); padding: 100px 90px; margin-bottom: 0;}
 }
@@ -377,6 +429,8 @@ body{
 @media(min-width:1000px){
     .heroDiv{padding: 0px 240px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 80px;}
+    .features{grid-template-columns: repeat(2, 1fr); padding: 40px 80px;}
+    .features-brands{grid-template-columns: repeat(3, 1fr); padding: 40px 20px;}
     .who{padding: 40px 180px;grid-template-columns: repeat(3, 1fr); }
     .focus-content{padding: 100px 240px;}
     .become-content{ padding: 100px 240px;}
@@ -385,6 +439,8 @@ body{
 @media(min-width:1400px){
     .heroDiv{padding: 100px 450px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
+    .features{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
+    .features-brands{grid-template-columns: repeat(4, 1fr); padding: 40px 20px;}
     .focus-content{ padding: 100px 360px;}
     .become-content{ padding: 100px 360px;}
 }
