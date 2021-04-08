@@ -215,6 +215,12 @@ body{
     justify-content: center;
 }
 
+.storeIcon{
+    height:45px;
+    cursor: pointer;
+    
+}
+
 .company{
     font-family: 'Unna', serif;
     height: 100vh;
@@ -227,7 +233,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
+    /* background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%); */
 }
 .bg-4,
 .bg-2,
@@ -486,6 +493,17 @@ body{
 }
 
 .detail-image{
+    height: 650px;
+}
+
+.detail-imageHome{
+    height: 550px;
+}
+
+.detail-image-imgHome{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 .detail-image-img{
@@ -656,6 +674,10 @@ ol {
 
   .launching p{
       margin-bottom: 40px;
+  }
+
+  .mocup{
+      height: 200px;
   }
   
 
