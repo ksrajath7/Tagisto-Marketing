@@ -65,9 +65,9 @@ function apply(){
 }
 
 function applyBrand(){
-    window.location.assign("./marketting/Apply/ApplyAsBrand")
+    window.location.assign("./marketting/Apply/ApplyAsBrand/")
 }
 
 function applyTagsta(){
-    window.location.assign("./marketting/Apply/ApplyAsTagsta")
+    window.location.assign("./marketting/Apply/ApplyAsTagsta/")
 }
