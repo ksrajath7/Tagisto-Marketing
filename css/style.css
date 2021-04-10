@@ -202,6 +202,25 @@ body{
     transition: .3s background;
     background: linear-gradient(180deg, #6724FD 0%, #6724FD 100%);
 }
+.btnWhite{
+    display: inline-block;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .3s background;
+    background: linear-gradient(180deg, #0e32ff 0%, #0e32ff 100%);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    padding: 10px 30px;
+    z-index: 20;
+    position: relative;
+}
+
+.btnWhite:hover{
+    transition: .3s background;
+    background: linear-gradient(180deg, #001dc2 0%, #001dc2 100%);
+}
 
 .hero{
     font-family: 'Unna', serif;
@@ -224,9 +243,6 @@ body{
 .company{
     font-family: 'Unna', serif;
     height: 100vh;
-    /* background: url(../img/bg-1.png); */
-    /* background-attachment: fixed; */
-    /* background-size: cover; */
     color: #0E283F;
     text-align: left;
     align-items: flex-start;
@@ -234,7 +250,6 @@ body{
     flex-direction: column;
     justify-content: center;
     background-color: #f3f3f3;
-    /* background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%); */
 }
 .bg-4,
 .bg-2,
@@ -329,13 +344,13 @@ body{
     border: none;
     height: 350px;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .become-content{
     background-color: #fff;
     padding: 40px;
     text-align: center;
-    margin-bottom: 40px;
 }
 
 .become-text{
@@ -346,13 +361,10 @@ body{
     font-family: 'Unna', serif;
     font-weight: 500;
     font-size: 38px;
-    margin-bottom: 0;
-    /* background-color: red; */
-    margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 .become-text p{
-    padding-top: 40px;
     color: #000;
     font-family: 'Nunito', sans-serif;
     font-size: 19px;
@@ -365,7 +377,7 @@ body{
     column-gap: 40px;
     row-gap: 40px;
     background-color: #fff;
-    padding: 80px 40px;
+    padding: 40px 40px;
     /* text-align: center; */
     margin-bottom: 40px;
 }
@@ -429,8 +441,9 @@ body{
     align-items: center;
     column-gap: 20px;
     row-gap: 20px;
-    padding: 20px 20px;
+    padding: 10px 0;
     border-radius: 20px;
+    /* background-color: #0E283F; */
 }
 
 .details-imageDiv{
@@ -493,7 +506,7 @@ body{
 }
 
 .detail-image{
-    height: 650px;
+    /* height: 650px; */
 }
 
 .detail-imageHome{
@@ -510,6 +523,10 @@ body{
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.detail-image-img-mobile{
+    height: 200px;
 }
 
 .heroReady{
@@ -545,7 +562,7 @@ body{
     height: 100px;
 }
 .static-logo{
-    display: none;
+    display: block;
     height: 60px;
 }
 
@@ -670,7 +687,7 @@ ol {
   }
       
 
-  .launching{padding:22px;padding-top: 40px;padding-bottom: 0;}
+  .launching{padding:15px;padding-top: 40px;padding-bottom: 0;}
 
   .launching p{
       margin-bottom: 40px;
@@ -680,6 +697,25 @@ ol {
       height: 200px;
   }
   
+  .aHref{
+      text-decoration: none;
+      color: black;
+  }
+
+  .aHref:hover{
+      color: blue;
+      /* line-height: 20px; */
+    text-decoration: underline;
+    text-underline-position: under;
+  }
+
+  .aHref h2::after{
+      content: '🔗';
+      position: relative;
+      top:0;
+      font-size: 15px;
+      /* margin-left: 10px; */
+  }
 
 @media(min-width:500px){
     .who{padding: 40px 20px;grid-template-columns: repeat(2, 1fr); }
@@ -701,12 +737,12 @@ ol {
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .featuresNew{padding: 40px 20px;}
-    .featuresNew-row{padding: 40px 20px;grid-template-columns: repeat(2, 1fr);}
+    .featuresNew-row{grid-template-columns: repeat(2, 1fr);}
     .features-brands{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .focus-content{grid-template-columns: repeat(2, 1fr); padding: 100px 60px;}
-    .become-content{grid-template-columns: repeat(2, 1fr); padding: 100px 60px; margin-bottom: 0;}
+    .become-content{grid-template-columns: repeat(2, 1fr); padding: 100px 60px; margin-bottom: 0;padding-bottom: 20px;padding-top: 40px;}
     .whatWeR{padding-left: 100px; padding-top: 0;}
-    .launching{padding:25px 100px 0px 100px;}
+    .launching{padding:20px 100px 0px 100px;}
 }
 
 @media(min-width:1000px){
@@ -718,9 +754,9 @@ ol {
     .features-brands{grid-template-columns: repeat(3, 1fr); padding: 40px 20px;}
     .who{padding: 40px 80px;grid-template-columns: repeat(3, 1fr); }
     .focus-content{padding: 100px 160px;}
-    .become-content{ padding: 100px 160px;}
+    .become-content{ padding: 100px 160px;padding-bottom: 30px;padding-top: 60px;}
     .whatWeR{padding-left: 150px}
-    .launching{padding:50px 200px 0px 200px;}
+    .launching{padding:40px 200px 0px 200px;}
 }
 
 @media(min-width:1400px){
@@ -730,9 +766,9 @@ ol {
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
     .featuresNew{padding: 40px 180px;}
     .features-brands{grid-template-columns: repeat(4, 1fr); padding: 40px 20px;}
-    .who{padding: 40px 180px;grid-template-columns: repeat(3, 1fr); }
+    .who{padding: 80px 180px;padding-bottom: 40px; grid-template-columns: repeat(3, 1fr); }
     .focus-content{ padding: 100px 260px;}
-    .become-content{ padding: 100px 260px;}
+    .become-content{ padding: 100px 360px;padding-bottom: 0px;padding-top: 80px;}
     .whatWeR{padding-left: 200px}
-    .launching{padding:100px 400px 0px 400px;}
+    .launching{padding:60px 400px 0px 400px;}
 }
