@@ -61,5 +61,5 @@ window.onscroll = function () {
 
 
 function apply(){
-    window.location.assign("./../../../Apply/ApplyAsTagsta/")
+    window.location.assign("./../../../marketting/Apply/ApplyAsTagsta/")
 }
