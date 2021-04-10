@@ -63,3 +63,11 @@ window.onscroll = function () {
 function apply(){
     window.location.assign("./marketting/Apply/")
 }
+
+function applyBrand(){
+    window.location.assign("./marketting/Apply/ApplyAsBrand")
+}
+
+function applyTagsta(){
+    window.location.assign("./marketting/Apply/ApplyAsTagsta")
+}
