@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -104,6 +107,7 @@ body{
 }
 
 .links{
+    font-family: 'Inter';
     display: flex;
 }
 
@@ -242,7 +246,7 @@ body{
 
 .company{
     font-family: 'Unna', serif;
-    height: 100vh;
+    min-height: 100vh;
     color: #0E283F;
     text-align: left;
     align-items: flex-start;
@@ -286,15 +290,20 @@ body{
 }
 
 .companyDiv h1{
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 50px;
+    /* font-family: 'Unna'; */
+    font-weight: 500;
+    color: #01017a;
 }
 
 .companyDiv p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
     margin-top: 20px;
-    line-height: 30px;
-    font-size: 18px;
+    line-height: 35px;
+    font-size: 28px;
+    color: #01017a;
+    /* color: white; */
 }
 
 .heroDiv{
@@ -308,7 +317,7 @@ body{
 }
 
 .heroDiv p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-top: 20px;
     line-height: 30px;
 }
@@ -334,7 +343,7 @@ body{
 
 .focus-text p{
     color: #000;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     line-height: 30px;
 }
@@ -366,7 +375,7 @@ body{
 
 .become-text p{
     color: #000;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     line-height: 30px;
 }
@@ -394,7 +403,7 @@ body{
 }
 
 .who-text p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     line-height: 30px;
 }
@@ -472,7 +481,7 @@ body{
 .features-col-ul{
 }
 .features-col-li{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .detail-content{
@@ -500,7 +509,7 @@ body{
 }
 
 .detail-text p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 19px;
     line-height: 30px;
 }
@@ -510,7 +519,7 @@ body{
 }
 
 .detail-imageHome{
-    height: 550px;
+    height: 700px;
 }
 
 .detail-image-imgHome{
@@ -551,7 +560,7 @@ body{
 }
 
 .heroReadyDiv p{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin-top: 20px;
 }
 
@@ -733,7 +742,7 @@ ol {
     .heroDiv{grid-template-columns: repeat(2, 1fr); padding: 0px 90px;}
     .companyDiv{grid-template-columns: repeat(2, 1fr); padding: 0px 60px;}
     .heroDiv h1{font-size: 50px;}
-    .companyDiv h1{font-size: 40px;}
+    .companyDiv h1{font-size: 65px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 20px;}
     .featuresNew{padding: 40px 20px;}
@@ -761,7 +770,7 @@ ol {
 
 @media(min-width:1400px){
     .heroDiv{padding: 100px 450px;}
-    .companyDiv{padding: 100px 200px;}
+    .companyDiv{padding: 50px 200px;}
     .detail-content{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
     .features{grid-template-columns: repeat(2, 1fr); padding: 40px 180px;}
     .featuresNew{padding: 40px 180px;}
