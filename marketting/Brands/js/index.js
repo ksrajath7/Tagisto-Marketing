@@ -1,4 +1,20 @@
 
+var coll = document.getElementsByClassName("expander");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+
 function openMenu(){
     var linksMobileView = document.getElementById('linksMobileView');
     linksMobileView.style.display="block"
@@ -63,3 +79,5 @@ window.onscroll = function () {
 function apply(){
     window.location.assign("../Apply/ApplyAsTagsta/")
 }
+
+
