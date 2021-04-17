@@ -245,7 +245,7 @@ body{
     font-family: 'Unna';
     font-weight: 500;
     font-size: 40px;
-    line-height: 55px;
+    line-height: 30px;
     margin: 0;
 }
 
@@ -253,8 +253,8 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
     margin-top: 30px;
-    line-height: 32px;
-    font-size: 23px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 .heroRight{
