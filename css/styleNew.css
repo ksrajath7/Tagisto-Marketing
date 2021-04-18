@@ -612,6 +612,33 @@ ol {
       /* margin-left: 10px; */
   }
 
+  
+.heroReady{
+    font-family: 'Unna', serif;
+    /* height: 100vh; */
+    padding: 40px 0;
+    background-color: #6441ff;
+    color: white;
+    /* position:relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroReadyDiv{
+    text-align: center;
+}
+
+.heroReadyDiv h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.heroReadyDiv p{
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+}
+
 @media(min-width:500px){
     .homeGrid{grid-template-columns: repeat(2, 1fr);padding: 40px 60px;}
     .description{padding: 30px 80px;}
