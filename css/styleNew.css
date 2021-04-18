@@ -435,6 +435,11 @@ body{
     font-size: 25px;
     font-weight: 700;
   }
+
+  .expander:hover{
+    background-color: rgb(250, 234, 218);
+
+  }
   
   .content1 {
     padding: 18px;
