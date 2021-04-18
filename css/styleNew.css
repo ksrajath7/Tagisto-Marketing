@@ -426,8 +426,8 @@ body{
     margin-top: 15px;
     font-family: 'Inter', sans-serif;
     background-color: rgb(255, 243, 232);
-    border: 1px solid sandybrown;
-    color: rgb(98, 3, 187);
+    border: 1px solid #f4a460;
+    color: #000;
     cursor: pointer;
     text-align: left;
     border-radius: 15px;
