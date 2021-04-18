@@ -425,8 +425,8 @@ body{
 .expander {
     margin-top: 15px;
     font-family: 'Inter', sans-serif;
-    background-color: rgb(255, 243, 232);
-    border: 1px solid #f4a460;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid #000;
     color: #000;
     cursor: pointer;
     text-align: left;
