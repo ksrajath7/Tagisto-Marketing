@@ -434,11 +434,13 @@ body{
     padding: 20px 22px;
     font-size: 25px;
     font-weight: 700;
+    transition: 0.3s box-shadow;
   }
 
   .expander:hover{
     background-color: rgb(250, 234, 218);
-
+    transition: 0.3s box-shadow;
+    box-shadow:  0px 10px 20px 1px #5c5c5c44;
   }
   
   .content1 {
