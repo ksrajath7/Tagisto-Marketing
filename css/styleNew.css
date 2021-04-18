@@ -27,7 +27,7 @@ body{
 }
 
 .header{
-    font-family: 'Unna', serif;
+    font-family: 'Roboto', serif;
     font-weight: 500;
     background-color: transparent;
     color:#0E283F;
@@ -46,7 +46,7 @@ body{
 }
 
 .header_color {
-    font-family: 'Unna', serif;
+    font-family: 'Roboto', serif;
     font-weight: 500;
     display: -webkit-box;
   display: -ms-flexbox;
@@ -225,19 +225,15 @@ body{
 .hero{
     background-color: #dad4ff;
     background: linear-gradient(180deg, #c2d9ff 0%, #fff 100%);
-    /* min-height: 100vh; */
-    /* height: 100%; */
     display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: flex-start;
     align-items: center;
-    column-gap: 40px;
-    row-gap: 40px;
     color: #0E283F;
+    padding-top: 100px;
 }
 
 .heroLeft{
-    padding: 100px 0px 70px 100px;
+    padding: 50px 0 0 50px;
     
 }
 
@@ -259,7 +255,7 @@ body{
 }
 
 .heroRight{
-    padding: 120px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .heroRight-img{
@@ -272,19 +268,20 @@ body{
 
 .description{
     text-align: center;
-    padding: 70px 100px;
+    padding: 30px;
     color: #000;
 }
 
 .descriptionContent{
-    padding: 0 100px;
+    padding: 0 0px;
+    /* background-color: red; */
 }
 
 .description h3{
-    font-family: 'Unna';
+    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 60px;
     margin: 0;
+    font-size: 40px;
     line-height: 55px;
 }
 
@@ -308,7 +305,7 @@ body{
 }
 
 .centered h3{
-    font-family: 'Unna';
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 55px;
     margin: 0;
@@ -326,26 +323,25 @@ body{
 .youtube-video{
     outline: none;
     border: none;
-    height: 500px;
+    height: 250px;
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 50px; */
+    margin-bottom: 20px;
 }
 
 .homeGrid{
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    
     align-items: center;
-    padding: 70px 140px;
-    column-gap: 20px;
-    row-gap: 20px;
-    /* background-color: #bdffde; */
+    padding: 30px;
+    column-gap: 40px;
+    row-gap: 40px;
     color:#000;
 }
 
 .homeGridCol{
     text-align: justify;
-    border-right: 1px solid #000;
+    /* border-right: 1px solid #000; */
 }
 
 .homeGridCol h3{
@@ -369,20 +365,17 @@ body{
     background-color: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background: linear-gradient(180deg, #bdffde 0%, #fff 100%); */
-    /* min-height: 100vh; */
-    /* height: 100%; */
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    
     align-items: flex-start;
     align-items: center;
-    column-gap: 40px;
-    row-gap: 40px;
+    column-gap: 30px;
+    /* row-gap: 0px; */
     color: #0E283F;
 }
 
 .contentLeft{
-    padding: 0 0px 0 140px;
+    padding: 0 30px 0 30px;
     
 }
 
@@ -403,11 +396,12 @@ body{
 }
 
 .contentSmall h3{
-    font-family: 'Unna';
+    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     margin-top: 20px;
+    line-height: 35px;
 }
 
 .contentSmall p{
@@ -464,7 +458,7 @@ body{
 
 .whatWeR {
     /* font-family: Helvetica; */
-    font-family: 'Unna', serif;
+    font-family: 'Roboto', serif;
     padding-left:50px;
     padding-top: 50px;
     padding-right: 20px;
@@ -612,11 +606,18 @@ ol {
   }
 
 @media(min-width:500px){
+    .homeGrid{grid-template-columns: repeat(2, 1fr);padding: 40px 60px;}
+    .description{padding: 30px 80px;}
     .who{padding: 40px 20px;grid-template-columns: repeat(2, 1fr); }
 }
 
 @media(min-width:800px){
-    .heroLeft{padding: 140px 0px 70px 140px;}
+    .hero{grid-template-columns: 1fr 1fr;padding-top: 0;}
+    .heroRight{padding-top: 100px;}
+    .description{padding: 30px 140px;}
+    .youtube-video{height: 400px;}
+    .content{grid-template-columns: 1.5fr 1fr;}
+    .contentLeft{padding: 0 0 0 140px;}
     .floating-logo{display: block;}
     .static-logo{display: none;}
     .menuIcon{display: none;}
@@ -629,11 +630,16 @@ ol {
 }
 
 @media(min-width:1000px){
+    .homeGrid{grid-template-columns: repeat(3, 1fr);padding: 70px 140px;padding-top: 100px;}
+    .description{padding: 30px 180px;}
     .whatWeR{padding-left: 150px}
     .launching{padding:40px 200px 0px 200px;}
 }
 
 @media(min-width:1400px){
+    .heroLeft{padding: 140px 0px 70px 140px;}
+    .heroRight{padding-top: 120px;}
+    .description{padding: 30px 300px;}
     .whatWeR{padding-left: 200px}
     .launching{padding:60px 400px 0px 400px;}
 }
