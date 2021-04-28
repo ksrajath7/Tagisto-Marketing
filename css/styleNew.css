@@ -97,7 +97,14 @@ body{
     display: none;
 }
 
+#linksMobileView hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 #linksMobileView{
+    
+    font-family: 'Inter', sans-serif;
     display: none;
     position: fixed;
     overflow: hidden;
@@ -106,7 +113,7 @@ body{
     left: 0;
     bottom: 0;
     background-color: white;
-    padding: 20px;
+    padding: 20px 80px;
     z-index: 60000;
 }
 
@@ -150,7 +157,6 @@ body{
 }
 
 .linksMobileView-a{
-    margin-top: 30px;
     display: block;
     text-decoration: none;
     color: #421ee2;
@@ -166,7 +172,7 @@ body{
     cursor: pointer;
     transition: .3s background;
     color: white;
-    background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%);
+    background: linear-gradient(180deg, #000 0%, #000 100%);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
     border-radius: 100px;
     margin-left: 40px;
@@ -174,7 +180,7 @@ body{
 
 .loginBtn:hover{
     transition: .3s background;
-    background: linear-gradient(180deg, #6724FD 0%, #6724FD 100%);
+    background: linear-gradient(180deg, rgb(68, 68, 68) 0%, rgb(68, 68, 68) 100%);
 }
 
 .btn{
@@ -185,7 +191,7 @@ body{
     cursor: pointer;
     margin-top: 20px;
     transition: .3s background;
-    background: linear-gradient(180deg, #9941F2 0%, #6724FD 100%);
+    background: linear-gradient(180deg, #000 0%, #000 100%);
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
     border-radius: 100px;
     padding: 10px 30px;
@@ -195,7 +201,7 @@ body{
 
 .btn:hover{
     transition: .3s background;
-    background: linear-gradient(180deg, #6724FD 0%, #6724FD 100%);
+    background: linear-gradient(180deg, rgb(20,20,20) 0%, rgb(20,20,20) 100%);
 }
 .btnWhite{
     display: inline-block;
