@@ -107,6 +107,7 @@ body{
     bottom: 0;
     background-color: white;
     padding: 20px;
+    z-index: 60000;
 }
 
 .links{
@@ -177,8 +178,9 @@ body{
 }
 
 .btn{
+    font-family: 'Roboto';
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     cursor: pointer;
     margin-top: 20px;
@@ -197,7 +199,7 @@ body{
 }
 .btnWhite{
     display: inline-block;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     cursor: pointer;
     margin-top: 20px;
@@ -395,6 +397,11 @@ body{
     font-size: 21px;
 }
 
+.contentSmall{
+    /* padding-top: 80px; */
+    /* background-color: rebeccapurple; */
+}
+
 .contentSmall h3{
     font-family: 'Roboto';
     font-weight: 500;
@@ -469,6 +476,7 @@ body{
     padding-left:50px;
     padding-top: 50px;
     padding-right: 20px;
+    color: #0e32ff;
 }
 
 
@@ -554,7 +562,7 @@ ol {
     display: block;
     padding: .4em .4em .4em 2em;
     margin: .5em 0;
-    background: #DAD2CA;
+    background: #adedf7;
     color: #444;
     text-decoration: none;
     border-radius: .3em;
@@ -582,7 +590,7 @@ ol {
   }
       
 
-  .launching{padding:15px;padding-top: 40px;padding-bottom: 0;font-family: "Roboto";}
+  .launching{padding:15px;padding-top: 40px;padding-bottom: 0;font-family: "Roboto" sans-serif;}
 
   .launching p{
       margin-bottom: 40px;
@@ -614,7 +622,7 @@ ol {
 
   
 .heroReady{
-    font-family: 'Unna', serif;
+    font-family: 'Roboto', serif;
     /* height: 100vh; */
     padding: 40px 0;
     background-color: #6441ff;
@@ -631,7 +639,7 @@ ol {
 
 .heroReadyDiv h1{
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .heroReadyDiv p{
@@ -642,6 +650,7 @@ ol {
 @media(min-width:500px){
     .homeGrid{grid-template-columns: repeat(2, 1fr);padding: 40px 60px;}
     .description{padding: 30px 80px;}
+    .contentSmall{padding-top: 100px;}
     .who{padding: 40px 20px;grid-template-columns: repeat(2, 1fr); }
 }
 
