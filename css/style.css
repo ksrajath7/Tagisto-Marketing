@@ -91,69 +91,6 @@ body{
     flex: 1;
 }
 
-#linksWebView{
-    display: none;
-}
-
-#linksMobileView{
-    display: block;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: white;
-    padding: 20px;
-    z-index: 100000;
-}
-
-.links{
-    font-family: 'Roboto';
-    display: flex;
-}
-
-.links-a{
-    margin-left: 30px;
-    text-decoration: none;
-    color: #0E283F;
-    transition: color 200ms linear;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.links-a-selected{
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.links-a_color{
-    margin-left: 30px;
-    text-decoration: none;
-    color: #0E283F;
-    transition: color 200ms linear;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-.links-a_color-selected{
-    text-decoration: underline;
-    text-underline-position: under;
-}
-
-.leftArrow{
-    cursor: pointer;
-    font-size: 24px;
-    color: #421ee2;
-}
-
-.linksMobileView-a{
-    margin-top: 30px;
-    display: block;
-    text-decoration: none;
-    color: #421ee2;
-    transition: color 200ms linear;
-}
 
 
 
